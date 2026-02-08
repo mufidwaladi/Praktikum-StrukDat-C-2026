@@ -20,7 +20,7 @@ thistuple = tuple(y)
 
 """thistuple = ("apple", "banana", "cherry")
 del thistuple
-print(thistuple)
+print(thistuple)# ini akan eror karna tuple telah dihapus seluruhnya
 #del bisa menghapus tuple sepenuhnya"""
 
 fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
@@ -34,7 +34,14 @@ print(red)
 
 thistuple = ("apple", "banana", "cherry")
 i = 0
-while i < thistuple:
+while i < len(thistuple):
   print(thistuple[i])
   i = i + 1 
 #contoh penggunaan loop sama seperti list bisa menggunakan indeks ataupun tidak
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+#mengalikan tuple
+print(mytuple) 
+#untuk menjumlahkan tuple sama seperti list
+

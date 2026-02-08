@@ -120,3 +120,8 @@ list2 = [1, 2, 3]
 list3 = list1 + list2
 print(list3) 
 #join list bisa menggunakan metode + atau pun metode append dan extend
+
+fruits = ['apple', 'banana', 'cherry']
+
+x = fruits.count("cherry")
+#mengitung jumlah isi list yang memiliki nilai yang sama bisa juga digunakan oleh tuple

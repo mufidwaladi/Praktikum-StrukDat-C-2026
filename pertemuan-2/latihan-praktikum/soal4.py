@@ -7,7 +7,8 @@ nilai_siswa = {
 "uas": 70}
 }
 
-nilai_siswa["S04"] = {"nama": "Fafa",
+nilai_siswa
+["S04"] = {"nama": "Fafa",
 "tugas": 85,
 "uts": 80,
 "uas" : 90}
