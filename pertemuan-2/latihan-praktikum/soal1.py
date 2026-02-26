@@ -11,5 +11,7 @@ for x in stok:
 y = len(stok)
 
 rata2 = jumlah / y
+rata_rata = (sum(stok) / len(stok))
 
 print(f"Jumlahnya adalah {rata2}")
+print(f"Jumlahnya adalah {rata_rata}")
