@@ -1,8 +1,5 @@
-class MyClass:
-  x = 5
-
 class Person:
-  def __init__(self, name, age):
+  def __init__(self, name, age): #init / inisialisasi
     self.name = name
     self.age = age
 
